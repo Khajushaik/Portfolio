@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh '''
                     docker ps
-                    curl -I http://localhost:1601
+                    curl -I http://35.153.181.88:1601/
                 '''
             }
         }
